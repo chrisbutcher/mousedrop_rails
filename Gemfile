@@ -28,6 +28,7 @@ gem "twitter-bootstrap-rails"
 # gem 'bcrypt', '~> 3.1.7'
 
 gem 'pg', group: :production
+gem 'rails_12factor'
 
 # Use Unicorn as the app server
 gem 'unicorn-rails'
