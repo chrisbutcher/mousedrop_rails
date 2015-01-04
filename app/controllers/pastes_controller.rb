@@ -46,6 +46,6 @@ class PastesController < ApplicationController
   end
 
   def redis
-    @redis ||= Redis.new
+    $redis
   end
 end
